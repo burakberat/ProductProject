@@ -13,7 +13,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-U857KAH\\SQLEXPRESS;database=NewOOPCore;integrated security = true;");
+            optionsBuilder.UseSqlServer("server=DESKTOP-6CG2926\\SQLEXPRESS;database=ProductProject;integrated security = true;");
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Customer> Customers { get; set; }
